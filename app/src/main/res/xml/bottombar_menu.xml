@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <!--BottomBar底部tab的布局。分别含义：id、tabspec名称、图标、选中时候整个tabspec的颜色-->
+    <tab
+        id="@+id/menu_recommend"
+        title="推荐"
+        icon="@drawable/ic_favorites"
+        barColorWhenSelected="#5cf070"
+        inActiveColor="#f3f5f3"
+        />
+    <tab
+        id="@+id/menu_find"
+        title="发现"
+        icon="@drawable/ic_nearby"
+        barColorWhenSelected="#fcbe32"
+        inActiveColor="#f3f5f3"
+        />
+    <tab
+        id="@+id/menu_news"
+        title="新闻"
+        icon="@drawable/ic_recents"
+        barColorWhenSelected="#ff5f2e"
+        inActiveColor="#f3f5f3"
+        />
+    <tab
+        id="@+id/menu_weather"
+        title="天气"
+        icon="@drawable/ic_restaurants"
+        barColorWhenSelected="#43ebe0"
+        inActiveColor="#f3f5f3"
+        />
+</tabs>
